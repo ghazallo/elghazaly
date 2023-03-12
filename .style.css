@@ -1,0 +1,306 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    min-height: 5000px;
+}
+.header{
+    background-image: linear-gradient(rgba(4,9,30,0.7),
+    rgba(4,9,30,0.7)),url(university.jpeg) ;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+}
+@media(max-width:700px){
+    .header{
+        background-image: linear-gradient(rgba(4,9,30,0.7),
+        rgba(4,9,30,0.7)),url(university.jpeg) ;
+        background-size:cover;
+        background-position:center;
+        position: relative;
+        min-height: 70vh;
+        width:100%; 
+    }
+}
+.btn{
+    float: 1;
+    text-align: left;
+    padding: 6px;
+    margin-left: 10px;
+    border: none;
+}
+.btn1{
+    background: transparent;
+    color: rgb(255,255,255);
+    border:none;
+    margin-left: 10px;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 18px;
+}
+.btn1:hover{
+    background: rgb(7, 78, 119);
+    font-size: 25px;
+    color: rgb(255,255,255);
+}
+@media(max-width:599px){
+    .btn{
+        float: 1;
+        text-align: left;
+        padding: 6px;
+        margin-left: 3px;
+        border: none;
+    }
+    .btn1{
+        background: transparent;
+        color: rgb(255,255,255);
+        border:none;
+        margin-left: 4px;
+        cursor: pointer;
+        margin-right: 8px;
+        margin-top: 10px;
+        padding: 4px;
+        font-size: 11px;
+    }
+    .btn1:hover{
+        background: rgb(7, 78, 119);
+        font-size: 15px;
+        color: rgb(2, 2, 2);
+    }
+}
+.text-box{
+    text-align: center;
+    margin-top: 150px;
+    color: #fff;
+}
+.hh1{
+    margin-bottom:20px;
+    font-weight: 800px;
+    font-size: 60px;
+}
+.ww{
+    font-size: 90px;
+    color: rgba(88, 11, 11, 0.616);
+}
+.bb{
+    font-size: 90px;
+    color:blueviolet 
+}
+.uu{
+    font-size: 90px;
+    color:green;  
+}
+.par1{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.hero-btn{
+    color: rgb(255,255,255);
+    text-decoration: none;
+    border: solid;
+    padding: 20px;
+}
+.hero-btn:hover{
+    font-size: 28px;
+    background: olivedrab;
+    border: none;
+}
+@media(max-width:700px){
+    .text-box{
+        text-align: center;
+        margin-top: 30px;
+        color: #fff;
+    }
+    .hh1{
+        margin-bottom:20px;
+        font-weight: 800px;
+        font-size: 30px;
+    }
+    .ww{
+        font-size: 40px;
+        color: rgba(88, 11, 11, 0.616);
+    }
+    .bb{
+        font-size: 40px;
+        color:blueviolet 
+    }
+    .uu{
+        font-size: 40px;
+        color:green;  
+    }
+    .par1{
+        font-size: 14px;
+        margin-bottom: 40px;
+    }
+    .hero-btn{
+        color: rgb(255,255,255);
+        text-decoration: none;
+        border: solid;
+        padding: 20px;
+    }
+    .hero-btn:hover{
+        font-size: 20px;
+        background: olivedrab;
+        border: none;
+    }
+}
+    .course{
+        text-align: center;
+        margin-top: 30px;
+       
+    }
+    .hh2{
+        font-size: 30px;
+        font-weight: 1000px;
+        font-family: Arial;
+        margin-bottom: 4px;
+        color: red;
+    }
+    .par2{
+        color: rgb(53, 11, 94);
+    }
+    .row{
+        margin-top:40px;
+        display:flex;
+        justify-content:space-between;
+        
+    }
+    .course-col{
+        flex-basis:31%;
+        background-color:#bb9999;
+        border-radius: 10px;
+        margin-bottom:5%;
+        padding: 20px 12px;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+    }
+    .hh3{
+        text-align: center;
+        font-weight: 600;
+        margin: 10px 0;
+    }
+    .course-col:hover{
+        box-shadow:0 0 20px 0px;
+    }
+    @media(max-width:700px){
+        .row{
+            flex-direction: column;
+        }
+    }
+    .campus{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .hh4{
+        color: red;
+        font-size: 30px;
+        font-weight: 1000px;
+        font-family: Arial;
+        margin-bottom: 4px;
+    }
+    .par4{
+        color: rgb(53, 11, 94);
+    }
+ .campus-col{
+    flex-basis: 32%;
+    border-radius:10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+ } 
+ .campus-col img{
+    width: 100%;
+ } 
+ .layer{
+    background-color: transparent;
+    height: 100%;
+    width:100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 1s;
+ } 
+ .layer:hover{
+    background: rgba(0, 200, 226, 0.7);
+ }
+ .ali11{
+    width: 100%;
+    font-weight: 900;
+    color: rgba(255,255,255);
+    font-size: 26px;
+    bottom: 55%;
+    left: 50%;
+    transform: translateX(-60%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+    cursor: pointer;
+ }
+ .ali11:hover{
+    opacity: 1;
+    font-weight: 800;
+    font-style: oblique;
+    bottom: 10%;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
